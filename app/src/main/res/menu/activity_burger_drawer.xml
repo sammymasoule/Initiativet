@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Min profil" />
+        <item
+            android:id="@+id/nav_posts"
+            android:icon="@drawable/ic_forum_black_24dp"
+            android:title="Mine opslag" />
+        <item
+            android:id="@+id/nav_debates"
+            android:icon="@drawable/ic_comment_black_24dp"
+            android:title="Mine debatter" />
+        <item
+            android:id="@+id/nav_credets"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Credits" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Skift adgangskode" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Log ud" />
+    </group>
+
+</menu>

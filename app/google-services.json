@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "410605028005",
+    "firebase_url": "https://initiativiet.firebaseio.com",
+    "project_id": "initiativiet",
+    "storage_bucket": "initiativiet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410605028005:android:254756256667603d",
+        "android_client_info": {
+          "package_name": "com.example.jespe.initiativiet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410605028005-teimqceu1f2atnjrcun6m2nat817n5fl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jespe.initiativiet",
+            "certificate_hash": "bcea947be5d4d960fb240744398861f04bce894a"
+          }
+        },
+        {
+          "client_id": "410605028005-h1mcqhg62jjhidsb0s2m5j0e3etadoj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jespe.initiativiet",
+            "certificate_hash": "3cad603e73b1aee45845e951acf31014ce94979d"
+          }
+        },
+        {
+          "client_id": "410605028005-hg9rm6uvsegltm0o9rp0v8apc3n06gak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB6E3UFaCb51kGXOUWE0ZBXtDKtYvVARw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410605028005-hg9rm6uvsegltm0o9rp0v8apc3n06gak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

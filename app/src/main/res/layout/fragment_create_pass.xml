@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_forgot_password"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@color/white"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jespe.initiativiet.MainActivity">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/initiativet"
+        android:layout_marginTop="24dp"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/icon"
+        android:id="@+id/forgot_input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/EmailInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email"
+            android:inputType="textCapWords"
+            android:maxLines="1" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:layout_below="@+id/forgot_input_email"
+        android:id="@+id/ResetBtn"
+        android:text="Reset Password"
+        android:background="@color/GreenTheme"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/BackBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ResetBtn"
+        android:layout_centerHorizontal="true"
+        android:text="I remember my password. Log me in!"
+        android:textColor="@color/colorPrimaryDark" />
+
+</RelativeLayout>

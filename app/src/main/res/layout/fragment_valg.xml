@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/valg_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jespe.initiativiet.ValgFragment">
+
+    <RelativeLayout
+        android:id="@+id/container_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:id="@+id/title_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lovforslag"
+            android:textSize="28sp" />
+
+        <ExpandableListView
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/title_category"
+            android:id="@+id/lvExp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
